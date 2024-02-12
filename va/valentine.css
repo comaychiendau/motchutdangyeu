@@ -1,0 +1,59 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-align: center;
+}
+
+.button_yes{
+    background: #bd3535;
+    transition-duration: 0.45s ;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    color: white;
+    border: none;
+    padding: 25px 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.button_no{
+    background: #1e7609c5;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border: none;
+    color: white;
+    padding: 25px 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button_yes:hover{
+    background-color: white;
+    color: #bd3535;
+}
+
+.button_no:hover{
+    background: white;
+    color: #1e7609c5
+}
+
+body{
+    background-color: #ad555daf;
+}
+
+
