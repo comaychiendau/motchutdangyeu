@@ -123,19 +123,25 @@ function yes_button(){
     var new_text = 'hehe tớ cảm ơn Nhím nhé!!!';
 
     document.getElementById('final_text').innerText = new_text;
-    picture.src ='anhbanh.jpeg';
-
+    picture.src ='Toothless Dragon Dancing Gif Sticker - Toothless dragon Toothless Dancing gif - Discover & Share GIFs.gif';
 
     let button_yes = document.getElementById('yes');
     button_yes.remove();
+
 
     let h3_ele  = document.getElementById('para');
     if (h3_ele){
         h3_ele.parentNode.removeChild(h3_ele);
     }
 
+    let div_fw = document.createElement('div');
+    div_fw.id = 'firework';
+    div_fw.classList.add('firework');
+    document.body.appendChild(div_fw);
+    
     let button_no = document.getElementById('no');
     button_no.remove();
+
 
 
 }
